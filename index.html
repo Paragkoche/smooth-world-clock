@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>World clock</title>
+</head>
+<body>
+    <div class="clock-body">
+        <p class="clock-number deg300">-</p>
+        <p class="clock-number deg330">-</p>
+        <p class="clock-number deg0 red">3</p>
+        <p class="clock-number deg30">-</p>
+        <p class="clock-number deg60">-</p>
+        <p class="clock-number deg90 red">6</p>
+        <p class="clock-number deg120">-</p>
+        <p class="clock-number deg150">-</p>
+        <p class="clock-number deg180 red">9</p>       
+        <p class="clock-number deg210">-</p>
+        <p class="clock-number deg240">-</p>
+        <p class="clock-number deg270 red">12</p>
+        <div class="clock-dialer sec"></div>
+        <div class="clock-dialer min"></div>
+        <div class="clock-dialer h"></div>
+    </div>
+    <p id="AMorPM" class="red" style="margin: 20px 0;"></p>
+    <div class="selector">
+        <select id="selector"   onchange="time()" name="" id="">
+            <option value=""></option>
+        </select>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
